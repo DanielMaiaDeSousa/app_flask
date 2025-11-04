@@ -4,6 +4,7 @@ from dao.aluno_dao import AlunoDAO
 from dao.professor_dao import ProfessorDAO
 from dao.curso_dao import CursoDAO
 
+
 app = Flask(__name__)
 
 @app.route('/')
